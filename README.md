@@ -1,4 +1,4 @@
-# Server-monitor-guide
+# server-monitor-guide
 This guide explains How to Monitor Apache Web Server Load and Page Statistics.
 
 You might have often wanted to be able to see real-time hits as they arrive. Well, **Google Analytics** is a wonderful package for looking at trends over time, but there’s a delay of a few hours there, and you really can’t see data like requests per second or total bytes.
