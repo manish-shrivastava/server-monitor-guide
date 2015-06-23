@@ -41,13 +41,28 @@ You can launch it by simply running `apachetop` from the console/terminal. You c
 
 `apachetop -f /var/log/apache2/access.log`
 
-#### To Monitoring Timeframe
+#### To Monitoring Time frame
 
 It Will display stats on the last x number of hits
 
 `apachetop -H hits`
 
  It will display stats on the last x number of seconds
-apachetop -T secs 
+ 
+`apachetop -T secs`
 
 
+#### Filters
+
+To access the filters, use the key: `f`
+It will prompt to ask you options (a, b, c ) for the filter.
+Hit the `a key` to add a filter and the line should switch. Now you can choose to filter by `URL`, `referrer`, or `host`.
+
+
+### Help
+
+At any point you can hit the `?` or the `h key` to take you to the help screen, which will give you a quick view of all the options.
+
+
+Thanks,
+Manish
